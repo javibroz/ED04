@@ -17,6 +17,7 @@ public class CCuenta {
         this.nombre =nom;
         this.cuenta=cue;
         this.saldo=sal;
+        this.tipoInteres=tipo;
     }
 
     public String getNombre() {
