@@ -14,9 +14,41 @@ public class CCuenta {
 
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
-        nombre =nom;
-        cuenta=cue;
-        saldo=sal;
+        this.nombre =nom;
+        this.cuenta=cue;
+        this.saldo=sal;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getCuenta() {
+        return cuenta;
+    }
+
+    public void setCuenta(String cuenta) {
+        this.cuenta = cuenta;
+    }
+
+    public double getSaldo() {
+        return saldo;
+    }
+
+    public void setSaldo(double saldo) {
+        this.saldo = saldo;
+    }
+
+    public double getTipoInteres() {
+        return tipoInteres;
+    }
+
+    public void setTipoInteres(double tipoInteres) {
+        this.tipoInteres = tipoInteres;
     }
 
     public double estado()
